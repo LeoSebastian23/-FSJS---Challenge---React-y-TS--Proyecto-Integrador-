@@ -1,0 +1,9 @@
+.contenedorImagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid{
+    height: 150px !important;
+    margin: 10px !important;
+}

@@ -1,0 +1,101 @@
+/* Estilos de pagina*/
+.render-Productos{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.NavProductos{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(141, 141, 141);
+    border-bottom: 1px solid rgb(141, 141, 141);
+}
+
+/* Navegador seccion productos + Icono carrito */
+
+.contenedor-boton{
+    margin: 10px;
+    padding: 10px;
+}
+
+.categorias > .btn{
+    margin: 5px !important;
+}
+
+.contenedorIconoCarrito{
+  margin: 2px;
+}
+
+/* Carta de productos*/
+.card:hover{
+    /*box-shadow: 5px 5px 5px 5px black ;*/
+    border: 2px  solid rgb(255, 255, 255) !important;
+    transition: all 0.4s linear;
+}
+.card{
+    width: 240px;
+    border-radius: 15px 15px;
+    padding: 10px !important ;
+    margin: 10px !important;
+    font-size: medium !important;
+    
+}
+.card-precio{
+    font-size: larger;
+}
+.overFlow{
+    overflow: hidden; /* Se encierra la imagen para que no sobresalga de la tarjeta*/
+}
+.card-img-top{
+    transition: all 0.2s ease-in-out; /*Transicion continua de la imagen*/
+}
+.card-img-top:hover{
+   transform: scale(1.05); /*Acerca la imagen cuando sobrepasa el cursor*/
+}
+.card-tittle{
+    font-size: large !important;
+    font-weight: bold !important;
+}
+
+
+/* Modal del carrito*/
+.carrito{
+    margin: 15px;
+    padding: 10px;
+}
+
+.containerTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tituloCarrito{
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.productoCarrito{
+    border: 2px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+.imgCarrito{
+    width: 150px;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

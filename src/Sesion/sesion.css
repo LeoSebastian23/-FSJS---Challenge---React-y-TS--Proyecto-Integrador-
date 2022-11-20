@@ -1,0 +1,27 @@
+/*=======================================================================*/
+.contenedorRegistro{
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+   
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*=======================================================================*/
+.sesionFooter{ 
+    display:flex;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-content: left !important;
+}
+.btn-Registrar{
+    font-weight: bolder;
+    display:flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 5px;
+}

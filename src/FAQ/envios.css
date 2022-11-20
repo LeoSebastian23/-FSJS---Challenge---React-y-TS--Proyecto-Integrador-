@@ -1,0 +1,19 @@
+.contenedorFAQ{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contenedorFAQ > .card{
+    height: 250px !important;
+    width: 500px !important;
+}
+.contenedorMP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorMP > .card{
+    height: 220px !important;
+    width: 500px !important;
+}

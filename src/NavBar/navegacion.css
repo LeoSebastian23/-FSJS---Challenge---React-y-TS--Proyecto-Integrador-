@@ -1,0 +1,20 @@
+.nav-item{
+    font-size: larger !important;
+    
+}
+.nav-link{
+    font-weight: bolder!important;
+    color: #0493d0 !important;
+}
+
+.Titulo{
+    color: #0493d0;
+    font-size:xx-large;
+    font-weight: bolder;
+    display:inline-block;
+    margin-left: 10px;
+}
+
+.usuario{
+    margin-left:10px;
+}

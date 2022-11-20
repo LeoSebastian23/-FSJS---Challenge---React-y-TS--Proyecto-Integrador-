@@ -1,0 +1,16 @@
+body {
+    background-image: radial-gradient(circle at 15.11% 110.44%, #bdf0fd 0, #8fd3e6 25%, #50afcc 50%, #008cb3 75%, #0070a0 100%) !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+}
+.footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+.titulo {
+    margin: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
