@@ -1,8 +1,15 @@
 /* Estilos de pagina*/
 .render-Productos{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    text-align: center;
+}
+
+.contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .NavProductos{
@@ -25,16 +32,20 @@
 /* Carta de productos*/
 .card:hover{
     /*box-shadow: 5px 5px 5px 5px black ;*/
-    border: 2px  solid rgb(0, 0, 0) !important;
+    border: 1px  solid rgb(242, 242, 242) !important;
     transition: all 0.4s linear;
 }
 .card{
-    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 430px;
+    width: 260px;
     border-radius: 15px 15px;
-    padding-top: 10px !important ;
     margin: 10px !important;
     font-size: medium !important;
-    background-color: rgba(255, 255, 255,0.8);
+    padding: 10px;
+
 }
 .card-precio{
     font-size: larger;

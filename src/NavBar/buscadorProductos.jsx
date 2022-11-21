@@ -1,5 +1,4 @@
-import React, { useState }  from "react";
-import Allproducts from "../Carrito/productos";
+import React from "react";
 
 export const BuscadorProductos = ({busqueda,handleChange}) => {
   

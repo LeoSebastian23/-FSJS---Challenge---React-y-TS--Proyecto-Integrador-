@@ -7,6 +7,7 @@ import ItemCarrito from "./ItemCarrito";
 import { BuscadorProductos } from "../NavBar/buscadorProductos";
 import { IconoCarrito } from "./IconoCarrito";
 
+
 //MODAL
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -119,7 +120,7 @@ const Carrito = () => {
         </nav>
       </div>
 
-      <article className="row">
+      <article className="contenedorProductos">
         {products &&
           products.map((Productos) => (
             <ItemProductos

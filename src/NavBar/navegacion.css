@@ -1,7 +1,8 @@
-.navbar{
+
+/* .navbar{
     display: flex !important;
-    justify-content: space-between !important;
-}
+    justify-content: center!important;
+}  */
 .nav-item{
     font-size: larger !important;
 }
@@ -20,5 +21,15 @@
 
 .usuario{
     display: flex;
-    margin-left:10px;
+
+}
+
+.navegador{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.presentacion{
+    background-color: aliceblue;
 }

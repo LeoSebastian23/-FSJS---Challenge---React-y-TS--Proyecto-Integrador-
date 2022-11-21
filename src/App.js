@@ -7,6 +7,7 @@ import Ilustrativas from './secciones/ilustrativas';
 import Envios from './FAQ/envios';
 import Carrito from './Carrito/Carrito';
 import FormularioRegistro from './Sesion/registrar';
+import Footer from './Footer/Footer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
               <Buscador/>
               <Carrousel></Carrousel>
               <Ilustrativas/>
+              <Footer></Footer>
             </>
           }
         />  
