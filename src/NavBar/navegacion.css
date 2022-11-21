@@ -1,6 +1,9 @@
+.navbar{
+    display: flex !important;
+    justify-content: space-between !important;
+}
 .nav-item{
     font-size: larger !important;
-    
 }
 .nav-link{
     font-weight: bolder!important;
@@ -16,5 +19,6 @@
 }
 
 .usuario{
+    display: flex;
     margin-left:10px;
 }
